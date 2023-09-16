@@ -1,0 +1,41 @@
+.container{
+    align-items: flex-start;
+}
+
+#highScores{
+    padding-block: 4rem;
+}
+
+#highScores h1{
+    font-size: clamp(2rem, 4vw, 5rem);
+}
+
+#highScoresList{
+    width: 50%;
+    margin-block: -2rem 2rem;
+}
+
+#highScoresList li{
+    display: flex;
+    margin-block: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#highScoresList li .score{
+    font-size: 1.5rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-weight: 600;
+    margin-left: 1rem;
+    color: #56a5eb;
+}
+
+#highScores li .name{
+    font-size: clamp(0.8rem, 3vw, 1rem);
+}
+
+#highScores .btn{
+    text-align: center;
+    font-size: 1.1rem;
+    width: clamp(13.5rem, 16vw, 15rem);
+}

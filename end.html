@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts -->
+    <link href="https://api.fontshare.com/v2/css?f[]=azeret-mono@800,200,500,900,600,700,400,100&display=swap"
+        rel="stylesheet">
+
+    <!-- icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/end.css">
+    <script src="assets/js/end.js" defer></script>
+
+    <title>Rapid Quiz App | Game Over</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="end" class="">
+            <h1>GAME OVER</h1>
+            <div class="finalScore flex-column flex-center">
+                <p>Final Score</p>
+                <h1 id="finalScore"></h1>
+                <form>
+                    <input type="text" name="username" id="username" placeholder="username">
+                    <button type="submit" class="btn" id="saveScoreBtn" onclick="saveScore(event)"><img
+                            src="assets/essentials/save.gif" width="50px" alt=""><span>Save</span></button>
+                </form>
+            </div>
+            <a href="game.html" class="btn"><img src="assets/essentials/reload.gif" width="50px"
+                    alt=""><span>Retry</span></a>
+
+            <a href="index.html" class="btn"><img src="assets/essentials/home.gif" width="50px"
+                    alt=""><span>Homepage</span></a>
+        </div>
+    </div>
+</body>
+
+</html>
